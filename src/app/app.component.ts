@@ -1,4 +1,5 @@
  import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -6,6 +7,9 @@
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
- 
+
+  constructor(public router: Router){}
+
+  
 
 }
